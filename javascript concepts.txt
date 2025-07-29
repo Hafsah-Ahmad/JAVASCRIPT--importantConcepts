@@ -1,4 +1,4 @@
-                  JAVASCRIPT
+                        JAVASCRIPT
 
     -dynamically typed language.
                               
@@ -51,5 +51,20 @@
          };
          greet();
        
+    4. conditionals=
+             if 
+             else if
+             else
+             ==     loose comparison(no data type restriction)
+             ===    strict comparison(same datatypes only)
+             !=     not equal (loose)
+             !==    not equal(strict)
+             >      greater than
+             <      less than
+             >=     greater than or equal to
+             <=     less than or equal to
+
+    
+
         
         
