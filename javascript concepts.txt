@@ -1,0 +1,37 @@
+                  JAVASCRIPT
+
+    -dynamically typed language.
+                              
+                            VARIABLES
+    let= 
+    this keyword is used with variables that can be updated but they can't be repeated.
+    like,
+       let age=12;
+         if i want to update it, i can do this,
+        age=25;
+        or
+        age=age+3;
+
+    const=
+    this keyword is used with those variable that can't be repeated and updated.
+    we use it like,
+        const age=12;
+
+    we can't update it BUT, if it is used as object's key, then it can be updated.
+    we can do that by creating object.
+     const student={
+          name:"hafsa";
+          age:22;
+          cgpa:3.4;
+          degree:"BS-IT";
+     };
+     console.log(student["name"]); 
+     //let's update
+     student.name="sheraz";
+     console.log(student);
+
+     You can use both dot(.) or bracket way of calling athe variable.
+
+    
+
+    
