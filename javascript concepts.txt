@@ -97,6 +97,28 @@
            add value at start:
            array.unshift(value);
 
-           
+           splice:
+           splice(startIndex, deleteCount,value)
+                 has three methods.
 
-        
+                 -remove element:
+                 let fruits=["apple","banana","mango];
+                 fruits.splice(1,2);
+                 console.log(fruits);     //output= fruits=["mango"]
+
+                 -insert element:
+                 let fruits=["apple","banana","mango"];
+                 fruits.splice[1,0,"pear"];
+                 concole.log(fruits);           //output=fruits=["apple","pear","banana","mango"]
+
+                 -replace element:
+                 let fruits=["apple","banana","mango"];
+                 fruits.splice[0,1,"pear"];
+                 concole.log(fruits);            //output=fruits=["apple","pear","mango"]
+
+            slice:
+            creates copy of array till desired length.
+            let no=[1,2,3,4,5,6];
+            let sliced=fruits.slice(1,4);
+            console.log(sliced);          //output=[2,3,4,5]
+            
