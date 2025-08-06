@@ -128,5 +128,6 @@
                  console.log(no.indexOf(2));     //1
                            OR
                  console.log(no.indexOf(4,2));   //4
-                 
+
+                 s
           
