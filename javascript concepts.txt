@@ -130,4 +130,5 @@
                  console.log(no.indexOf(4,2));   //4
 
                  s
+                 x
           
