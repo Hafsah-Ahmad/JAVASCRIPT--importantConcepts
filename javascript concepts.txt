@@ -163,6 +163,16 @@
    11.type conversion:
    Manual conversion of different data types to same.
 
-   12.
+   12.Template Literals:
+    -It is a way to create stings in JS that allow interpolatio and multi line strings easily.
+    -Instead of "" and '', we use `...`
+    -To embed expression, we use, &{expression}
+      
+      const name="hafsa";
+      const age=22;
+      const greet="hello my name is &{name} and I am &{age} years old.
+      console.log(greet);
+      
+
 
             
