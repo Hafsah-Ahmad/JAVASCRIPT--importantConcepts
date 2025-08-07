@@ -157,6 +157,12 @@
       -logical
       -block
 
-   10.
+   10.type ncoercion:
+   Auto conversion of different data types to same.
+
+   11.type conversion:
+   Manual conversion of different data types to same.
+
+   12.
 
             
