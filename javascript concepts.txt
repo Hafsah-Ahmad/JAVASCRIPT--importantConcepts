@@ -130,26 +130,26 @@
                  console.log(no.indexOf(4,2));   //4
 
    7. forEach:
-   array.forEach(function(currentVal,index,array)){
-      ....
-   }
-        let no=[1,2,3,4,5];
-        fruits.forEach(function(no,index)){
-        console.log(index+";"+no);
-        }
+            array.forEach(function(currentVal,index,array)){
+            ....
+            }
+               let no=[1,2,3,4,5];
+               fruits.forEach(function(no,index)){
+               console.log(index+";"+no);
+               }
 
    8.closures:
-      These are the functions that remembers variables from their place they were created, even after that place is gone.
-       function outer(){
-         let name="hafsa";
-         function inner(){
-            console.log(name);
-         }
-         return inner;
-       }
-       const greet=outer;
-       greet();
-       They are useful for data privacy and encapsulation.
+              These are the functions that remembers variables from their place they were created, even after that place is gone.
+                function outer(){
+                let name="hafsa";
+                function inner(){
+                console.log(name);
+                }
+                return inner;
+                }
+                const greet=outer;
+               greet();
+               They are useful for data privacy and encapsulation.
 
    9.Scope:
       Three types    //self explanatry
@@ -172,7 +172,9 @@
       const age=22;
       const greet="hello my name is &{name} and I am &{age} years old.
       console.log(greet);
-      
+
+   13. string methods:
+
 
 
             
