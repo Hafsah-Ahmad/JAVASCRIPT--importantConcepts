@@ -152,28 +152,29 @@
                They are useful for data privacy and encapsulation.
 
    9.Scope:
-      Three types    //self explanatry
-      -global
-      -logical
-      -block
+          Three types    //self explanatry
+          -global
+          -logical
+          -block
 
    10.type ncoercion:
-   Auto conversion of different data types to same.
+                    Auto conversion of different data types to same.
 
    11.type conversion:
-   Manual conversion of different data types to same.
+                     Manual conversion of different data types to same.
 
    12.Template Literals:
-    -It is a way to create stings in JS that allow interpolatio and multi line strings easily.
-    -Instead of "" and '', we use `...`
-    -To embed expression, we use, &{expression}
+                       -It is a way to create stings in JS that allow interpolatio and multi line strings easily.
+                       -Instead of "" and '', we use `...`
+                       -To embed expression, we use, &{expression}
       
-      const name="hafsa";
-      const age=22;
-      const greet="hello my name is &{name} and I am &{age} years old.
-      console.log(greet);
+                      const name="hafsa";
+                      const age=22;
+                      const greet="hello my name is &{name} and I am &{age} years old.
+                      console.log(greet);
 
    13. string methods:
+                     
 
 
 
