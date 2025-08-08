@@ -222,4 +222,16 @@
    15.CallBack functions=
                         These are the functions that are passed into another function, which is then invoked inside the outer function to complete some kind of routine or action.
 
-                        
+                        function greetUser(name, callback) {
+                        console.log("Hello, " + name);
+                        callback(); // calling the callback
+                        }
+                        // Callback function
+                        function sayGoodbye() {
+                        console.log("Goodbye!");
+                        }
+                        // Using the callback
+                        greetUser("Alice", sayGoodbye);
+                        // Output:
+                        // Hello, Alice
+                        // Goodbye!
