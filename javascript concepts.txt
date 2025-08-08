@@ -199,6 +199,24 @@
 
                     12-.trim()                                   let str="  Hello  "; console.log(str.trim()); // Hello
 
+   14.Math Methods=
+                  These are built in functions for math problems.
+
+                  1-Math.round(num)            console.log(Math.round(4.6)); // 5
+
+                  2-Math.floor(num)            console.log(Math.floor(4.9)); // 4
+
+                  3-Math.ceil(num)             console.log(Math.ceil(4.1)); // 5
+
+                  4-Math.random()              console.log(Math.random()); // e.g., 0.482
+                  
+                  5-Math.max(a,b,...)          console.log(Math.max(3,7,2)); // 7
+
+                  6-Math.min(a,b...)           console.log(Math.min(3,7,2)); // 2
+
+                  7-Math.pow(base,exponent)    console.log(Math.pow(2,3)); // 8
+
+                  8-Math.sqrt(num)             console.log(Math.sqrt(16)); // 4
 
 
             
