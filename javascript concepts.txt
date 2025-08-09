@@ -326,6 +326,24 @@
            }
            }
            getPost();
+ 
+   20. break and continue:
+           -break immediately exits the current loop, stopping further iterations.
+            for (let i = 0; i < 10; i++) {
+            if (i === 5) {
+            break; // exit the loop completely when i equals 5
+            }
+            console.log(i);              //output=1,2,3,4
+            }
+
+            -continue skips the current iteration and jumps to the next one in the loop.
+             for (let i = 0; i < 5; i++) {
+             if (i === 2) {
+             continue; // skip the rest of this loop iteration when i equals 2
+             }
+             console.log(i);
+             }                       //output=1,3,4
+
 
    
          
