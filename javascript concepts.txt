@@ -235,3 +235,39 @@
                         // Output:
                         // Hello, Alice
                         // Goodbye!
+
+   16.objects=
+             Collection of key-value pairs used to store related data.
+             const student = { 
+               name: "Hafsa",
+               age: 22,
+               degree: "BS-IT",
+               };
+   
+   17.object destruncting=
+            A syntax to extract properties from an object into distinct variables.
+            const student = { name: "Hafsa", age: 22 };
+            const { name, age } = student;
+            console.log(name); // Hafsa
+
+   18.promise=
+           An object representing the eventual completion (or failure) of an asynchronous operation.
+
+
+           fetch('https://jsonplaceholder.typicode.com/posts/1')  // Request data from API
+           .then(response => {                                   // Wait for response
+           if (!response.ok) {                                 // Check if response is okay
+           throw new Error('Network response was not ok'); // Throw error if not
+           }
+           return response.json();                             // Parse JSON from response
+           })
+           .then(data => {                                      // Handle the parsed data
+           console.log('Post Title:', data.title);
+           })
+           .catch(error => {                                    // Catch any errors
+           console.error('Fetch error:', error);
+           });
+
+   19. Async/wait=
+
+
