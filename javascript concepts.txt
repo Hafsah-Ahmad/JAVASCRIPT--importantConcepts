@@ -283,5 +283,9 @@
            }
            getPost();
 
+   20. hoisting=
+         JavaScript’s default behavior of moving variable and function declarations to the top of their scope before code execution.
+         
+
 
 
