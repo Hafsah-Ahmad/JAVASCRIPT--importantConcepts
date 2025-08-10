@@ -345,7 +345,7 @@
              }                       //output=1,3,4
 
    21.
-   22.waba lubba dub dub
+   22.waba lubba dub 
 
    
          
