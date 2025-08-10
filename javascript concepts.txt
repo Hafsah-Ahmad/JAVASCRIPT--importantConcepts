@@ -344,7 +344,6 @@
              console.log(i);
              }                       //output=1,3,4
 
-   21.
    
 
    
