@@ -361,6 +361,18 @@
                   console.log("This runs no matter what");
                   }
 
+   22.event loop:
+            Manages the execution of JavaScript code, handling the call stack and callback queue so tasks happen in the correct order.
+            example:
+            console.log("Start");
+            setTimeout(() => {
+            console.log("Inside setTimeout");
+            }, 0);
+            console.log("End");
+
+   23.setTimeout() and setInterval()
+
+
 
    
          
