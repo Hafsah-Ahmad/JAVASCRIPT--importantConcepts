@@ -19,6 +19,7 @@
 
     *we can't update it BUT, if it is used as object's key, then it can be updated.
     we can do that by creating object.
+    example:
      const student={
           name:"hafsa";
           age:22;
@@ -184,6 +185,7 @@
 
    8.closures:
               These are the functions that remembers variables from their place they were created, even after that place is gone.
+              example:
                 function outer(){
                 let name="hafsa";
                 function inner(){
@@ -211,7 +213,7 @@
                        -It is a way to create stings in JS that allow interpolatio and multi line strings easily.
                        -Instead of "" and '', we use `...`
                        -To embed expression, we use, &{expression}
-      
+                       example:
                       const name="hafsa";
                       const age=22;
                       const greet="hello my name is &{name} and I am &{age} years old.
