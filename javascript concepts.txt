@@ -267,7 +267,7 @@
 
    15.CallBack functions:
                         These are the functions that are passed into another function, which is then invoked inside the outer function to complete some kind of routine or action.
-
+                        example:
                         function greetUser(name, callback) {
                         console.log("Hello, " + name);
                         callback(); // calling the callback
@@ -284,6 +284,7 @@
 
    16.objects:
              Collection of key-value pairs used to store related data.
+             example:
              const student = { 
                name: "Hafsa",
                age: 22,
@@ -292,6 +293,7 @@
    
    17.object destruncting:
             A syntax to extract properties from an object into distinct variables.
+            example:
             const student = { name: "Hafsa", age: 22 };
             const { name, age } = student;
             console.log(name); // Hafsa
