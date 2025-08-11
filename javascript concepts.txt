@@ -370,7 +370,24 @@
             }, 0);
             console.log("End");
 
-   23.setTimeout() and setInterval()
+   23.setTimeout() and setInterval():
+             -setTimeout() → Runs a function once after a specified delay (in milliseconds).
+             -setInterval() → Runs a function repeatedly at fixed time intervals until stopped.
+              Both are asynchronous → They don’t block the rest of your code.
+              example:
+              // setTimeout: run after delay
+               setTimeout(() => {
+               console.log("Runs after 2 seconds");
+               }, 2000);
+              // setInterval: run repeatedly
+              let counter = 0;
+              let intervalId = setInterval(() => {
+              counter++;
+              console.log(`Counter: ${counter}`);
+              if (counter === 3) clearInterval(intervalId); // stop after 3 times
+              }, 1000);
+   
+   24.
 
 
 
