@@ -344,7 +344,23 @@
              console.log(i);
              }                       //output=1,3,4
 
-   
+   21. error handeling:
+             Allows you to handle unexpected issues in your code without breaking the entire program.
+             -try contains the code that might throw an error.
+             -catch runs if there’s an error.
+             -finally always runs (error or no error).
+            -throw is used to manually trigger an error.
+            example:
+                  try {
+                  let num = 10;
+                  if (num > 5) throw new Error("Number too big!");
+                  console.log("All good");
+                  } catch (error) {
+                  console.log("Error caught:", error.message);
+                  } finally {
+                  console.log("This runs no matter what");
+                  }
+
 
    
          
