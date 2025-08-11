@@ -300,8 +300,8 @@
 
    18.promise:
            An object representing the eventual completion (or failure) of an asynchronous operation.
-
-
+          
+           example:
            fetch('https://jsonplaceholder.typicode.com/posts/1')  // Request data from API
            .then(response => {                                   // Wait for response
            if (!response.ok) {                                 // Check if response is okay
@@ -318,6 +318,7 @@
 
    19. Async/await:
            Syntax to write asynchronous code that looks and behaves like synchronous code, making it easier to read and write.
+           example:
            
            async function getPost() {
            try {
@@ -333,6 +334,7 @@
  
    20. break and continue:
            -break immediately exits the current loop, stopping further iterations.
+           example:
             for (let i = 0; i < 10; i++) {
             if (i === 5) {
             break; // exit the loop completely when i equals 5
@@ -341,6 +343,7 @@
             }
 
             -continue skips the current iteration and jumps to the next one in the loop.
+            example:
              for (let i = 0; i < 5; i++) {
              if (i === 2) {
              continue; // skip the rest of this loop iteration when i equals 2
