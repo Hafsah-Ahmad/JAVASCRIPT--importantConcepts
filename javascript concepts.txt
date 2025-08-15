@@ -394,7 +394,7 @@
               if (counter === 3) clearInterval(intervalId); // stop after 3 times
               }, 1000);
    
-   24.
+   24.D
 
 
 
